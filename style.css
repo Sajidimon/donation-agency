@@ -33,7 +33,7 @@ header {
 
 }
 
-.btn-primary{
+.btn-primary {
     padding: 15px 25px;
     color: #fff;
     background-color: coral;
@@ -45,29 +45,29 @@ header {
 
 /* donate area design stared from here */
 
-.donate-area{
+.donate-area {
     padding: 150px 300px;
     text-align: center;
 }
 
-.donate-header h2{
+.donate-header h2 {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.donate-header p{
+.donate-header p {
     font-size: 22px;
     color: rgb(113, 118, 122);
 }
 
-.donate-footer{
+.donate-footer {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.donate-footer h2{
-    padding:40px 20px;
+.donate-footer h2 {
+    padding: 40px 20px;
     background-color: rgb(224, 231, 238);
     border-radius: 4px;
     margin-top: 60px;
@@ -75,99 +75,127 @@ header {
     font-size: 35px;
 }
 
-.donate-footer .selected{
+.donate-footer .selected {
     color: red;
     border: 2px solid red;
 }
 
-.donate-footer-below p{
+.donate-footer-below p {
     margin-top: 75px;
     font-size: 24px;
     color: rgb(189, 180, 180);
 }
 
-.donate-footer-below hr{
+.donate-footer-below hr {
     margin: 10px 0 30px 0;
 }
 
 /* donate plan design started from here */
 
-.donate-plan{
+.donate-plan {
     padding: 0 150px 150px 150px;
 }
 
-.donate-plan-header{
-    text-align:center;
+.donate-plan-header {
+    text-align: center;
 }
 
-.donate-plan-header h2{
+.donate-plan-header h2 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.donate-plan-header p{
+
+.donate-plan-header p {
     font-size: 22px;
     color: rgb(113, 118, 122);
 }
 
-.donate-plan-footer{
+.donate-plan-footer {
     margin-top: 50px;
     display: flex;
     gap: 20px;
 }
 
-.food-donation{
+.food-donation {
     padding: 50px 10px;
     text-align: left;
     background-color: rgb(190, 204, 204);
     border-radius: 5px;
 }
 
-.food-donation h3{
+.food-donation h3 {
     font-size: 30px;
     font-weight: 700;
     margin: 30px 0 25px 0;
 }
 
-.food-donation p{
+.food-donation p {
     font-size: 20px;
     font-weight: 400;
     color: rgb(113, 118, 122);
 }
 
-.shalter-donation{
+.shalter-donation {
     padding: 50px 10px;
     text-align: left;
     background-color: rgb(174, 171, 187);
     border-radius: 5px;
 }
 
-.shalter-donation h3{
+.shalter-donation h3 {
     font-size: 30px;
     font-weight: 700;
     margin: 30px 0 25px 0;
 }
 
-.shalter-donation p{
+.shalter-donation p {
     font-size: 20px;
     font-weight: 400;
     color: rgb(113, 118, 122);
 }
 
-.education-donation{
+.education-donation {
     padding: 50px 10px;
     text-align: left;
     background-color: rgb(20, 202, 20);
     border-radius: 5px;
 }
 
-.education-donation h3{
+.education-donation h3 {
     font-size: 30px;
     font-weight: 700;
     margin: 30px 0 25px 0;
 }
 
-.education-donation p{
+.education-donation p {
     font-size: 20px;
     font-weight: 400;
     color: rgb(113, 118, 122);
+}
+
+/* live donation design started from here */
+
+.live-donation {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 100px 150px 100px;
+}
+
+.live-donation img {
+    width: 455px;
+    height: 475px;
+    border-radius: 3px;
+}
+
+.live-donation h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.live-donation p {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0 20px 0;
+    color: rgb(135, 157, 175);
 }
