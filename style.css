@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+/* header area design started from here */
+
+header {
+    background-image: url(./images/donation1.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.header-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.btn-primary{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: coral;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+}
